@@ -1,3 +1,5 @@
+# An Analysis of PyBer Data From Urban, Suburban and Rural Cities
+
 ## Overview
 A ridesharing company generally uses websites and/or mobile phone based applications to match passengers with private vehicles for hire that, unlike traditional taxis, can not be legally hailed from the street.  Although ridesharing companies have been criticized for their potentially disruptive effect on existing taxi services, they have gained traction through also operating in the traditionally underserviced suburban and rural markets.  The client for this project, a Python-based ridesharing company called “PyBer”, initially requested an analysis of their ridesharing data to examine the affordability of improving access to their services in underserviced neighborhoods.  Upon examining the results of the aforementioned analysis, decision makers at PyBer requested further analysis to examine the relationship(s) between city type - urban, suburban and rural - and the number of drivers operating, the number of rides delivered and the total weekly fares collected.  The following report represents an attempt to address these requests.
 
@@ -18,7 +20,9 @@ The graphical representation that is Figure 2 evidences three key features of th
 
 ### (iii) Average Weekly Fares per Driver
 In the interests of making the analysis more thorough, data acquired/produced during the previous steps was combined to provide a little more insight (See Figure 3: Summary of Weekly Averages).
-Link to Figure 3
+
+![](https://github.com/Scruffy-Bearie/PyBer_Analysis/blob/main/Analysis/PyBer_weekly_averages.png)
+
 The data in Figure 3 demonstrates that although average weekly fares in urban cities may be the highest as compared to suburban and rural cities, the average weekly fare/driver is actually the lowest.  Moreover, the data demonstrates that although average weekly fares (and revenues) in rural cities may be the lowest, the average weekly fare/driver is approximately 3x greater than in urban cities.  
 
 ## Analysis and Summary
