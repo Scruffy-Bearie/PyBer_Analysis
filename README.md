@@ -5,7 +5,7 @@ A ridesharing company generally uses websites and/or mobile phone based applicat
 ### (i) Summary of Ride Share Data
 The first steps in the analysis were to merge the existing data frames – those containing ride and city data - and then clean the resulting data frame by searching for and removing any records containing missing data points which might interfere with analysis.  Using this merged data frame - in conjunction with “groupby”, “sum” and division operations – it was possible to determine the total number of rides, drivers and fares as well as the average fare per ride and fare per driver for each city type.  The figures were placed in a summary data frame which, following some adjustments to, and formatting of, the columns, was a suitable way to examine and compare the results of the analysis (See Figure 1: Summary of Ride Share Data).
 
-Link to Figure 1
+![](https://github.com/Scruffy-Bearie/PyBer_Analysis/blob/main/Analysis/PyBer_data_summary.png)
 
 A quick examination of the data in Figure 1 reveals an intriguing relationship – as city size decreases (from urban to suburban to rural), the number of drivers operating and number of rides decreases but the average fare increases.  Ultimately, and as the data demonstrates, this means that the average fare per driver in rural cities is greater than in both suburban and urban cities.
 
