@@ -12,7 +12,7 @@ A quick examination of the data in Figure 1 reveals an intriguing relationship �
 ### (ii) Total Fare by City Type
 To further examine the relationships described above, “groupby” and “sum” operations were used on the merged data initially used to create a new data frame containing the total fares collected on each date in each city type.  By transforming this data frame into a pivot table, transforming the date information into the datetime data type and grouping by week, it became possible to display the total fares collected per week by city type in graphical format (See Figure 2: Total Fare by City Type).
 
-Link to Figure 2
+![Figure 2: Total Fare by City Type](https://github.com/Scruffy-Bearie/PyBer_Analysis/blob/main/Analysis/PyBer_fare_summary.png)
 
 The graphical representation that is Figure 2 evidences three key features of the data set: (1) total weekly fares (or revenues) generated on a weekly basis is consistently highest in urban settings and lowest in rural settings with suburban settings consistently in between; (2) there is considerable variation in total weekly fares within a given month across all city types; (3) there was a local maximum in total weekly fares for all city types towards the end of February.
 
